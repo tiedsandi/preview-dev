@@ -35,6 +35,9 @@ export default function Home() {
             onChange={handleInputChange}
           />
           <div className={styles.widhtNavigation}>
+            <p onClick={() => setUrl('http://localhost:3000')}>http://localhost:3000</p>
+          </div>
+          <div className={styles.widhtNavigation}>
             Website:
             <p onClick={() => setWebsiteWidth('1024px')}>1024px</p>
             <p onClick={() => setWebsiteWidth('1440px')}>1440px</p>
